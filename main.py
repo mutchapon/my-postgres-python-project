@@ -3,7 +3,7 @@
 import os
 from db.db_executor import execute_sql_file_with_params
 
-# ✅ สร้างตาราง users
+# # ✅ สร้างตาราง users
 # create_sql_path = os.path.join("sql", "create_users_table.sql")
 # execute_sql_file_with_params(create_sql_path)
 
