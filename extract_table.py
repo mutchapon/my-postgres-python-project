@@ -3,7 +3,7 @@ from datetime import datetime
 from utils.export_csv import export_to_csv
 
 def main():
-    today = datetime.today().strftime("%Y-%m-%d")
+    today = datetime.today().strftime("%Y-%m-%d_%H-%M-%S")
     sql_path = os.path.join("sql", "select_users.sql")
     csv_filename = f"user_{today}.csv"
     csv_path = os.path.join("output", csv_filename)
